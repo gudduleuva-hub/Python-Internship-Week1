@@ -1,0 +1,44 @@
+# Folder: Task1_Python_Basics
+
+# File: hello_world.py
+print("Hello World")
+
+# File: variables.py
+name = "Prathma"
+age = 20
+height = 5.4
+is_student = True
+
+print(name, age, height, is_student)
+
+# File: calculator.py
+a = int(input("Enter number 1: "))
+b = int(input("Enter number 2: "))
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+pprint("Multiplication:", a * b)
+print("Division:", a / b)
+
+# File: greeting.py
+name = input("Enter your name: ")
+print(f"Hello {name}, welcome to Python!")
+
+# File: syntax_errors_fixed.py
+# Wrong: print("Hello"
+# Correct:
+print("Hello")
+
+# File: personal_info_manager.py
+name = "Prathma Leuva"
+age = 20
+city = "Ahmedabad"
+hobbies = ["Coding", "Reading", "Music"]
+
+print("===== PERSONAL INFORMATION MANAGER =====")
+print(f"Name    : {name}")
+print(f"Age     : {age}")
+print(f"City    : {city}")
+print("Hobbies : ")
+for h in hobbies:
+    print(" -", h)
